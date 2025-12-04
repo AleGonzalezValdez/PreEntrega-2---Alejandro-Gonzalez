@@ -1,0 +1,25 @@
+main {
+    flex: 1;
+    padding: clamp(1rem, 2vw + 0.5rem, 2rem);
+    max-width: 1200px;
+    margin: auto;
+
+    h2 {
+        text-decoration: underline;
+        font-size: clamp(1.3rem, 1vw + 1rem, 2rem);
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: clamp(0.9rem, 0.5vw + 0.7rem, 1.2rem);
+        line-height: 1.6;
+    }
+}
+
+.welcome, .us, .store, .info, .contact {
+    background: $color-bg-card;
+    padding: clamp(1.2rem, 2vw + 1rem, 3rem);
+    border-radius: $radius-base;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px $shadow-primary;
+}

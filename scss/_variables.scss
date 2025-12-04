@@ -1,0 +1,17 @@
+// Colors
+$color-primary: rgb(238, 238, 61);
+$color-text: rgb(238, 238, 61);
+
+$color-bg-main: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,12,87,1) 20%, rgba(111,110,155,1) 100%);
+$color-bg-card: radial-gradient(circle, rgba(29,29,90,1) 75%, rgba(0,0,0,1) 100%);
+
+$color-nav: linear-gradient(180deg, rgba(36,12,87,1) 30%, rgba(0,0,0,1) 100%);
+$color-footer: linear-gradient(0deg, rgba(36,12,87,1) 30%, rgba(0,0,0,1) 100%);
+
+$shadow-primary: 0 0 10px rgba(238,238,61, 0.8);
+
+// Fonts
+$font-main: "Saira", sans-serif;
+
+// Global spacing
+$radius-base: 8px;

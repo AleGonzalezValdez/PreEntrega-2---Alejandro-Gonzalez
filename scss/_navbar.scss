@@ -1,0 +1,23 @@
+.nav {
+    background: $color-nav;
+    padding: clamp(0.8rem, 2vw, 1.8rem);
+
+    .navbar-brand,
+    .nav-link {
+        color: $color-primary !important;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-link:hover {
+        transform: scale(1.05) translateY(-3px);
+        text-shadow: $shadow-primary;
+    }
+
+    li {
+        margin: 0.5rem 1rem;
+
+        @media (min-width: 992px) {
+            margin: 1rem 1.5rem;
+        }
+    }
+}
