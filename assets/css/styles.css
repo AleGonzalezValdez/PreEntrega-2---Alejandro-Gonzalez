@@ -25,7 +25,7 @@ body * {
 }
 .nav .navbar-brand,
 .nav .nav-link {
-  color: rgb(238, 238, 61) !important;
+  color: rgb(238, 238, 61);
   transition: 0.2s ease-in-out;
 }
 .nav .nav-link:hover {
@@ -71,7 +71,7 @@ main p {
 
 .products img {
   width: 100%;
-  height: auto !important;
+  height: auto;
   display: block;
   border-radius: 8px;
   transition: 0.3s ease;

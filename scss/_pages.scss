@@ -5,7 +5,7 @@
 
 .products img {
     width: 100%;
-    height: auto !important;
+    height: auto;
     display: block;
     border-radius: 8px;
     transition: 0.3s ease;
@@ -65,7 +65,7 @@
     button,
     input[type="submit"] {
         background: $color-primary;
-        color: black !important;
+        color: black;
         border: none;
         padding: 0.8rem 1.2rem;
         border-radius: 6px;
